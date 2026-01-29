@@ -72,7 +72,3 @@ if __name__ == "__main__":
     app.btn_Update.configure(command=update_command)
     app.btn_Del.configure(command=delete_command)
     app.btn_Close.configure(command=app.window.destroy)
-
-
-
-    app.run()
